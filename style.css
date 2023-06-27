@@ -12,6 +12,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: -8px -8px 15px rgba(225, 225, 225, 0.1), 5px 5px 15px rgba(35, 35, 35, 0.2);
+
 }
 
 .card {
@@ -21,7 +23,7 @@
     border-radius: 15px;
     margin: 50px;
     padding: 15px;
-    box-shadow: -8px -8px 15px rgba(225, 225, 225, 0.1), 5px 5px 15px rgba(35, 35, 35, 0.2);
+    box-shadow: -8px -8px 10px rgba(225, 225, 225, 0.1), 5px 5px 10px rgba(35, 35, 35, 0.2);
 
 }
 
@@ -40,4 +42,8 @@ p {
     font-size: large;
     text-align: center;
     opacity: 0.5;
+}
+
+.attribution {
+    font-size: x-large;
 }
